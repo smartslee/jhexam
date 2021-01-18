@@ -7,7 +7,7 @@ import {
 } from './block.js';
 
 
-class App{
+export class App {
     constructor() {
                 
         this.canvas = document.createElement('canvas');

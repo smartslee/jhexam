@@ -1,3 +1,6 @@
+import {
+    Block
+} from './block.js'
 export class Ball {
     constructor(stageWidth,  stageHeight,  radius, speed) {
         this.radius = radius;
@@ -15,7 +18,7 @@ export class Ball {
        
         this.bounceWindow(stageWidth, stageHeight);
 
-        //this.bounceBlock(block);
+        this.bounceBlock(block);
 
         ctx.fillStyle = '#fdd700';
         ctx.beginPath();

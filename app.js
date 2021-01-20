@@ -41,7 +41,7 @@ animate(t) {
 
     this.block.draw(this.ctx);
 
-    this.ball.draw(this.ctx, this.stageWidth, this.stageHeight);
+    this.ball.draw(this.ctx, this.stageWidth, this.stageHeight, this.block);
 
     
 }

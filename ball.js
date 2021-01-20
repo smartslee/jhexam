@@ -1,6 +1,3 @@
-import {
-    Block
-} from './block.js'
 export class Ball {
     constructor(stageWidth,  stageHeight,  radius, speed) {
         this.radius = radius;
